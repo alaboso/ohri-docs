@@ -2,9 +2,9 @@ name: OHRI DOCS CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, test]
   pull_request:
-    branches: [main]
+    branches: [main, test]
   release:
     types:
       - created
